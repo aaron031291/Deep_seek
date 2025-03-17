@@ -1,0 +1,39 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: deepseek
+  labels:
+    app: deepseek
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: deepseek
+  template:
+    metadata:
+      labels:
+        app: deepseek
+    spec:
+      containers:
+      - name: deepseek
+        image: deepseek:latest
+        ports:
+        - containerPort: 8000
+        env:
+        - name: DEEPSEEK_SECRET_KEY
+          valueFrom:
+            secretKeyRef:
+              name: deepseek-secrets
+              key: secret-key
+        - name: DEEPSEEK_REDIS_URL
+          value: "redis://redis:6379/0"
+        - name: DEEPSEEK_LOG_LEVEL
+          value: "INFO"
+        volumeMounts:
+        - name: config-volume
+          mountPath: /etc/deepseek
+      volumes:
+      - name: config-volume
+        configMap:
+          name: deepseek-config
+

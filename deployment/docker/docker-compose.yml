@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  deepseek-api:
+    build:
+      context: ../..  # Adjust path if needed
+      dockerfile: deployment/docker/Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      - DEEPSEEK_SECRET_KEY=${DEEPSEEK_SECRET_KEY}
+      - DEEPSEEK_REDIS_URL=redis://redis:6379/0
+      - DEEPSEEK_LOG_LEVEL=INFO
+    depends_on:
+      - redis
+    volumes:
+      - ../../config:/etc/deepseek  # Ensure DeepSeek config is mounted
+
+  redis:
+    image: redis:6-alpine
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis-data:/data
+
+volumes:
+  redis-data:
