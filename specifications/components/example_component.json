@@ -1,0 +1,17 @@
+{
+    "name": "example_component",
+    "description": "A simple example component for AI-driven generation.",
+    "requirements": [
+        "Must be implemented in Python",
+        "Should use OOP principles",
+        "Include exception handling"
+    ],
+    "interfaces": [
+        {"name": "get_data", "description": "Fetch data for processing"},
+        {"name": "process_data", "description": "Process incoming data"}
+    ],
+    "dependencies": [],
+    "examples": [
+        "Example usage: instance.get_data()"
+    ]
+}
