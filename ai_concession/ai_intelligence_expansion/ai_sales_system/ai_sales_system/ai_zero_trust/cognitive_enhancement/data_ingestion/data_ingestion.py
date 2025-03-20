@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 from typing import Dict, Any, Optional, List, Set, Tuple, Union
 from loguru import logger
 import asyncio

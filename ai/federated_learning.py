@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import tensorflow_federated as tff
 import tensorflow as tf
 import numpy as np

@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 Enterprise Security & Zero-Trust AI Architecture
 from typing import Dict, List, Optional
 from dataclasses import dataclass

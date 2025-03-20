@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import pennylane as qml
 import tensorflow as tf
 import numpy as np

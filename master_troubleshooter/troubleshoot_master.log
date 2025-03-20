@@ -1,0 +1,1199 @@
+========== Master Troubleshooting Script ==========
+Run started at: Thu Mar 20 19:20:04 UTC 2025
+===================================================
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../__init__.py
+[OK] Python syntax correct: ../__init__.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../api/__init__.py
+[OK] Python syntax correct: ../api/__init__.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../api/websocket.py
+[OK] Python syntax correct: ../api/websocket.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../api/middleware.py
+[OK] Python syntax correct: ../api/middleware.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../api/rest.py
+[OK] Python syntax correct: ../api/rest.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../api/graphql.py
+[OK] Python syntax correct: ../api/graphql.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../api/deepseek_api.py
+[OK] Python syntax correct: ../api/deepseek_api.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../cli/__init__.py
+[OK] Python syntax correct: ../cli/__init__.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../cli/commands.py
+[OK] Python syntax correct: ../cli/commands.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../cli/utils.py
+[OK] Python syntax correct: ../cli/utils.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../cli/deepseek_cli.py
+[OK] Python syntax correct: ../cli/deepseek_cli.py
+[OK] Shebang exists in ../core_architecture/setup_deepseek.sh
+[CHECK] Testing Bash syntax for: ../core_architecture/setup_deepseek.sh
+[OK] Bash syntax correct: ../core_architecture/setup_deepseek.sh
+[INFO] Adding shebang (#!/bin/bash) to ../core_architecture/core_setup.sh
+[CHECK] Testing Bash syntax for: ../core_architecture/core_setup.sh
+[ERROR] Bash syntax issue in ../core_architecture/core_setup.sh
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../memory/persistent_memory.py
+[OK] Python syntax correct: ../memory/persistent_memory.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../ai_builder/ai_builder.py
+[OK] Python syntax correct: ../ai_builder/ai_builder.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../platform/platform_manager.py
+[OK] Python syntax correct: ../platform/platform_manager.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../setup.py
+[OK] Python syntax correct: ../setup.py
+[OK] Shebang exists in ../execution/run_script.py
+[OK] Python syntax correct: ../execution/run_script.py
+[OK] Shebang exists in ../execution/run_script.sh
+[CHECK] Testing Bash syntax for: ../execution/run_script.sh
+[ERROR] Bash syntax issue in ../execution/run_script.sh
+[OK] Shebang exists in ../install_dependencies.sh
+[CHECK] Testing Bash syntax for: ../install_dependencies.sh
+[OK] Bash syntax correct: ../install_dependencies.sh
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../adaptive_memory/ai_system_scalability/ai_calibrator/ai_calibrator.py
+[ERROR] Python syntax issue in ../adaptive_memory/ai_system_scalability/ai_calibrator/ai_calibrator.py
+[OK] Shebang exists in ../adaptive_memory/ai_system_scalability/ai_system_scalability.py
+[OK] Python syntax correct: ../adaptive_memory/ai_system_scalability/ai_system_scalability.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../adaptive_memory/adaptive_memory.py
+[OK] Python syntax correct: ../adaptive_memory/adaptive_memory.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../installers/installer.py
+[ERROR] Python syntax issue in ../installers/installer.py
+[OK] Shebang exists in ../master_troubleshooter/master_troubleshooter.sh
+[CHECK] Testing Bash syntax for: ../master_troubleshooter/master_troubleshooter.sh
+[OK] Bash syntax correct: ../master_troubleshooter/master_troubleshooter.sh
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../ai/__init__.py
+[OK] Python syntax correct: ../ai/__init__.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../ai/models.py
+[OK] Python syntax correct: ../ai/models.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../ai/engine.py
+[OK] Python syntax correct: ../ai/engine.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../ai/quantum_ai.py
+[OK] Python syntax correct: ../ai/quantum_ai.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../ai/meta_learning.py
+[OK] Python syntax correct: ../ai/meta_learning.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../ai/federated_learning.py
+[OK] Python syntax correct: ../ai/federated_learning.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../plugins/__init__.py
+[OK] Python syntax correct: ../plugins/__init__.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../plugins/registry.py
+[OK] Python syntax correct: ../plugins/registry.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../plugins/loader.py
+[OK] Python syntax correct: ../plugins/loader.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../orchestration/scaling.py
+[OK] Python syntax correct: ../orchestration/scaling.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../orchestration/__init__.py
+[OK] Python syntax correct: ../orchestration/__init__.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../orchestration/workers.py
+[OK] Python syntax correct: ../orchestration/workers.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../orchestration/scheduler.py
+[OK] Python syntax correct: ../orchestration/scheduler.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../tests/__init__.py
+[OK] Python syntax correct: ../tests/__init__.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../tests/security/__init__.py
+[OK] Python syntax correct: ../tests/security/__init__.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../tests/security/test_security.py
+[OK] Python syntax correct: ../tests/security/test_security.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../tests/integration/__init__.py
+[OK] Python syntax correct: ../tests/integration/__init__.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../tests/integration/test_e2e.py
+[OK] Python syntax correct: ../tests/integration/test_e2e.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../tests/unit/__init__.py
+[OK] Python syntax correct: ../tests/unit/__init__.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../tests/unit/test_plugins.py
+[OK] Python syntax correct: ../tests/unit/test_plugins.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../tests/unit/test_api.py
+[OK] Python syntax correct: ../tests/unit/test_api.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../tests/unit/test_ai.py
+[OK] Python syntax correct: ../tests/unit/test_ai.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../tests/unit/test_core.py
+[OK] Python syntax correct: ../tests/unit/test_core.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../hybrid_manager/innovation_oversight/innovation_oversight.py
+[OK] Python syntax correct: ../hybrid_manager/innovation_oversight/innovation_oversight.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../hybrid_manager/innovation_oversight/ui_control_panel/ui_control_panel.py
+[OK] Python syntax correct: ../hybrid_manager/innovation_oversight/ui_control_panel/ui_control_panel.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../hybrid_manager/innovation_oversight/ui_control_panel/marketing_digital_content/remote_access/remote_access.py
+[ERROR] Python syntax issue in ../hybrid_manager/innovation_oversight/ui_control_panel/marketing_digital_content/remote_access/remote_access.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../hybrid_manager/innovation_oversight/ui_control_panel/marketing_digital_content/remote_access/risk_assessment/roi_method/ui_control_panel_2/ui_control_panel_2.py
+[OK] Python syntax correct: ../hybrid_manager/innovation_oversight/ui_control_panel/marketing_digital_content/remote_access/risk_assessment/roi_method/ui_control_panel_2/ui_control_panel_2.py
+[OK] Shebang exists in ../hybrid_manager/innovation_oversight/ui_control_panel/marketing_digital_content/remote_access/risk_assessment/roi_method/ui_control_panel_2/troubleshooting/troubleshooting/troubleshoot.sh
+[CHECK] Testing Bash syntax for: ../hybrid_manager/innovation_oversight/ui_control_panel/marketing_digital_content/remote_access/risk_assessment/roi_method/ui_control_panel_2/troubleshooting/troubleshooting/troubleshoot.sh
+[OK] Bash syntax correct: ../hybrid_manager/innovation_oversight/ui_control_panel/marketing_digital_content/remote_access/risk_assessment/roi_method/ui_control_panel_2/troubleshooting/troubleshooting/troubleshoot.sh
+[OK] Shebang exists in ../hybrid_manager/innovation_oversight/ui_control_panel/marketing_digital_content/remote_access/risk_assessment/roi_method/ui_control_panel_2/troubleshooting/troubleshooting/git_automation/git_automation.sh
+[CHECK] Testing Bash syntax for: ../hybrid_manager/innovation_oversight/ui_control_panel/marketing_digital_content/remote_access/risk_assessment/roi_method/ui_control_panel_2/troubleshooting/troubleshooting/git_automation/git_automation.sh
+[OK] Bash syntax correct: ../hybrid_manager/innovation_oversight/ui_control_panel/marketing_digital_content/remote_access/risk_assessment/roi_method/ui_control_panel_2/troubleshooting/troubleshooting/git_automation/git_automation.sh
+[OK] Shebang exists in ../hybrid_manager/innovation_oversight/ui_control_panel/marketing_digital_content/remote_access/risk_assessment/roi_method/ui_control_panel_2/troubleshooting/troubleshoot.sh
+[CHECK] Testing Bash syntax for: ../hybrid_manager/innovation_oversight/ui_control_panel/marketing_digital_content/remote_access/risk_assessment/roi_method/ui_control_panel_2/troubleshooting/troubleshoot.sh
+[OK] Bash syntax correct: ../hybrid_manager/innovation_oversight/ui_control_panel/marketing_digital_content/remote_access/risk_assessment/roi_method/ui_control_panel_2/troubleshooting/troubleshoot.sh
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../hybrid_manager/innovation_oversight/ui_control_panel/marketing_digital_content/remote_access/risk_assessment/roi_method/roi_method.py
+[ERROR] Python syntax issue in ../hybrid_manager/innovation_oversight/ui_control_panel/marketing_digital_content/remote_access/risk_assessment/roi_method/roi_method.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../hybrid_manager/innovation_oversight/ui_control_panel/marketing_digital_content/remote_access/risk_assessment/risk_assessment.py
+[OK] Python syntax correct: ../hybrid_manager/innovation_oversight/ui_control_panel/marketing_digital_content/remote_access/risk_assessment/risk_assessment.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../hybrid_manager/innovation_oversight/ui_control_panel/marketing_digital_content/marketing_digital_content.py
+[ERROR] Python syntax issue in ../hybrid_manager/innovation_oversight/ui_control_panel/marketing_digital_content/marketing_digital_content.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../hybrid_manager/hybrid_manager.py
+[OK] Python syntax correct: ../hybrid_manager/hybrid_manager.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/__init__.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/__init__.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/__main__.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/__main__.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pygments/__init__.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pygments/__init__.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pygments/__main__.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pygments/__main__.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pygments/util.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pygments/util.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pygments/filter.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pygments/filter.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pygments/scanner.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pygments/scanner.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pygments/lexers/__init__.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pygments/lexers/__init__.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pygments/lexers/python.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pygments/lexers/python.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pygments/lexers/_mapping.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pygments/lexers/_mapping.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pygments/token.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pygments/token.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pygments/sphinxext.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pygments/sphinxext.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pygments/styles/__init__.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pygments/styles/__init__.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pygments/formatters/__init__.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pygments/formatters/__init__.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pygments/formatters/terminal.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pygments/formatters/terminal.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pygments/formatters/img.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pygments/formatters/img.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pygments/formatters/svg.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pygments/formatters/svg.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pygments/formatters/rtf.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pygments/formatters/rtf.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pygments/formatters/pangomarkup.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pygments/formatters/pangomarkup.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pygments/formatters/other.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pygments/formatters/other.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pygments/formatters/bbcode.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pygments/formatters/bbcode.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pygments/formatters/_mapping.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pygments/formatters/_mapping.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pygments/formatters/latex.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pygments/formatters/latex.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pygments/formatters/terminal256.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pygments/formatters/terminal256.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pygments/formatters/groff.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pygments/formatters/groff.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pygments/formatters/html.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pygments/formatters/html.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pygments/formatters/irc.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pygments/formatters/irc.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pygments/regexopt.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pygments/regexopt.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pygments/cmdline.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pygments/cmdline.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pygments/console.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pygments/console.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pygments/formatter.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pygments/formatter.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pygments/plugin.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pygments/plugin.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pygments/style.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pygments/style.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pygments/lexer.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pygments/lexer.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pygments/modeline.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pygments/modeline.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pygments/unistring.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pygments/unistring.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pygments/filters/__init__.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pygments/filters/__init__.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/__init__.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/__init__.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/packaging/_structures.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/packaging/_structures.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/packaging/__init__.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/packaging/__init__.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/packaging/_musllinux.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/packaging/_musllinux.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/packaging/tags.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/packaging/tags.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/packaging/utils.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/packaging/utils.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/packaging/requirements.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/packaging/requirements.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/packaging/version.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/packaging/version.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/packaging/_manylinux.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/packaging/_manylinux.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/packaging/specifiers.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/packaging/specifiers.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/packaging/markers.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/packaging/markers.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/packaging/__about__.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/packaging/__about__.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/hebrewprober.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/hebrewprober.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/metadata/__init__.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/metadata/__init__.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/metadata/languages.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/metadata/languages.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/__init__.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/__init__.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/mbcharsetprober.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/mbcharsetprober.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/escprober.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/escprober.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/cli/__init__.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/cli/__init__.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/cli/chardetect.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/cli/chardetect.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/cp949prober.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/cp949prober.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/euckrfreq.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/euckrfreq.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/enums.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/enums.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/gb2312prober.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/gb2312prober.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/euctwprober.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/euctwprober.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/mbcsgroupprober.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/mbcsgroupprober.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/johabprober.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/johabprober.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/escsm.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/escsm.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/big5freq.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/big5freq.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/codingstatemachinedict.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/codingstatemachinedict.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/version.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/version.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/charsetgroupprober.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/charsetgroupprober.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/euckrprober.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/euckrprober.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/sbcsgroupprober.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/sbcsgroupprober.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/johabfreq.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/johabfreq.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/macromanprober.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/macromanprober.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/euctwfreq.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/euctwfreq.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/gb2312freq.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/gb2312freq.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/mbcssm.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/mbcssm.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/utf8prober.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/utf8prober.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/langbulgarianmodel.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/langbulgarianmodel.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/langgreekmodel.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/langgreekmodel.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/jpcntx.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/jpcntx.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/universaldetector.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/universaldetector.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/sbcharsetprober.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/sbcharsetprober.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/codingstatemachine.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/codingstatemachine.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/resultdict.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/resultdict.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/charsetprober.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/charsetprober.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/langhungarianmodel.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/langhungarianmodel.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/eucjpprober.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/eucjpprober.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/utf1632prober.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/utf1632prober.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/chardistribution.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/chardistribution.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/langrussianmodel.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/langrussianmodel.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/langhebrewmodel.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/langhebrewmodel.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/jisfreq.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/jisfreq.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/big5prober.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/big5prober.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/langthaimodel.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/langthaimodel.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/langturkishmodel.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/langturkishmodel.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/latin1prober.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/latin1prober.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/sjisprober.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/chardet/sjisprober.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/panel.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/panel.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/padding.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/padding.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/default_styles.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/default_styles.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/abc.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/abc.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/__init__.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/__init__.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/text.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/text.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/_pick.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/_pick.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/__main__.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/__main__.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/_loop.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/_loop.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/live_render.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/live_render.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/pager.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/pager.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/control.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/control.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/layout.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/layout.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/palette.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/palette.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/table.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/table.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/progress_bar.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/progress_bar.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/highlighter.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/highlighter.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/traceback.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/traceback.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/_spinners.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/_spinners.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/_win32_console.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/_win32_console.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/measure.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/measure.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/json.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/json.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/logging.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/logging.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/repr.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/repr.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/jupyter.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/jupyter.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/themes.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/themes.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/ansi.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/ansi.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/_inspect.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/_inspect.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/_null_file.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/_null_file.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/box.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/box.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/containers.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/containers.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/live.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/live.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/_ratio.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/_ratio.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/pretty.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/pretty.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/_windows.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/_windows.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/_fileno.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/_fileno.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/file_proxy.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/file_proxy.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/syntax.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/syntax.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/terminal_theme.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/terminal_theme.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/status.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/status.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/errors.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/errors.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/_export_format.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/_export_format.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/_extension.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/_extension.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/diagnose.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/diagnose.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/filesize.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/filesize.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/rule.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/rule.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/_log_render.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/_log_render.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/scope.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/scope.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/columns.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/columns.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/styled.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/styled.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/screen.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/screen.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/color.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/color.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/_cell_widths.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/_cell_widths.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/_stack.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/_stack.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/spinner.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/spinner.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/segment.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/segment.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/color_triplet.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/color_triplet.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/_timer.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/_timer.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/prompt.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/prompt.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/markup.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/markup.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/region.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/region.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/progress.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/progress.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/cells.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/cells.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/theme.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/theme.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/align.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/align.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/console.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/console.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/_windows_renderer.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/_windows_renderer.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/protocol.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/protocol.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/constrain.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/constrain.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/_palettes.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/_palettes.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/emoji.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/emoji.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/_emoji_replace.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/_emoji_replace.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/style.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/style.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/_emoji_codes.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/_emoji_codes.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/tree.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/tree.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/bar.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/bar.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/_wrap.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/rich/_wrap.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pyproject_hooks/__init__.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pyproject_hooks/__init__.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pyproject_hooks/_impl.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pyproject_hooks/_impl.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pyproject_hooks/_compat.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pyproject_hooks/_compat.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pyproject_hooks/_in_process/__init__.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pyproject_hooks/_in_process/__init__.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/cachecontrol/__init__.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/cachecontrol/__init__.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/cachecontrol/compat.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/cachecontrol/compat.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/cachecontrol/cache.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/cachecontrol/cache.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/cachecontrol/adapter.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/cachecontrol/adapter.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/cachecontrol/caches/__init__.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/cachecontrol/caches/__init__.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/cachecontrol/caches/redis_cache.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/cachecontrol/caches/redis_cache.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/cachecontrol/caches/file_cache.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/cachecontrol/caches/file_cache.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/cachecontrol/heuristics.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/cachecontrol/heuristics.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/cachecontrol/wrapper.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/cachecontrol/wrapper.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/cachecontrol/filewrapper.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/cachecontrol/filewrapper.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/cachecontrol/serialize.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/cachecontrol/serialize.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/cachecontrol/_cmd.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/cachecontrol/_cmd.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/cachecontrol/controller.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/cachecontrol/controller.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/webencodings/__init__.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/webencodings/__init__.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/webencodings/labels.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/webencodings/labels.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/webencodings/mklabels.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/webencodings/mklabels.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/webencodings/x_user_defined.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/webencodings/x_user_defined.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/webencodings/tests.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/webencodings/tests.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pkg_resources/__init__.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pkg_resources/__init__.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/certifi/__init__.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/certifi/__init__.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/certifi/__main__.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/certifi/__main__.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/certifi/core.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/certifi/core.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/typing_extensions.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/typing_extensions.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/distro/__init__.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/distro/__init__.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/distro/__main__.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/distro/__main__.py
+[OK] Shebang exists in ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/distro/distro.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/distro/distro.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pyparsing/__init__.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pyparsing/__init__.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pyparsing/util.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pyparsing/util.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pyparsing/actions.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pyparsing/actions.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pyparsing/testing.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pyparsing/testing.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pyparsing/unicode.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pyparsing/unicode.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pyparsing/helpers.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pyparsing/helpers.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pyparsing/diagram/__init__.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pyparsing/diagram/__init__.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pyparsing/exceptions.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pyparsing/exceptions.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pyparsing/results.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pyparsing/results.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pyparsing/core.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pyparsing/core.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pyparsing/common.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/pyparsing/common.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/platformdirs/__init__.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/platformdirs/__init__.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/platformdirs/__main__.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/platformdirs/__main__.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/platformdirs/macos.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/platformdirs/macos.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/platformdirs/version.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/platformdirs/version.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/platformdirs/android.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/platformdirs/android.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/platformdirs/api.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/platformdirs/api.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/platformdirs/windows.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/platformdirs/windows.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/platformdirs/unix.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/platformdirs/unix.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/tenacity/wait.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/tenacity/wait.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/tenacity/__init__.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/tenacity/__init__.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/tenacity/nap.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/tenacity/nap.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/tenacity/before_sleep.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/tenacity/before_sleep.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/tenacity/before.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/tenacity/before.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/tenacity/_utils.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/tenacity/_utils.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/tenacity/stop.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/tenacity/stop.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/tenacity/_asyncio.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/tenacity/_asyncio.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/tenacity/tornadoweb.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/tenacity/tornadoweb.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/tenacity/retry.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/tenacity/retry.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/tenacity/after.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/tenacity/after.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/resolvelib/__init__.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/resolvelib/__init__.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/resolvelib/structs.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/resolvelib/structs.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/resolvelib/reporters.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/resolvelib/reporters.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/resolvelib/compat/__init__.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/resolvelib/compat/__init__.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/resolvelib/compat/collections_abc.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/resolvelib/compat/collections_abc.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/resolvelib/resolvers.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/resolvelib/resolvers.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/resolvelib/providers.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/resolvelib/providers.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/tomli/__init__.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/tomli/__init__.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/tomli/_types.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/tomli/_types.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/tomli/_re.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/tomli/_re.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/tomli/_parser.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/tomli/_parser.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/distlib/__init__.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/distlib/__init__.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/distlib/util.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/distlib/util.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/distlib/compat.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/distlib/compat.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/distlib/scripts.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/distlib/scripts.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/distlib/database.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/distlib/database.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/distlib/version.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/distlib/version.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/distlib/manifest.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/distlib/manifest.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/distlib/locators.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/distlib/locators.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/distlib/markers.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/distlib/markers.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/distlib/index.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/distlib/index.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/distlib/wheel.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/distlib/wheel.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/distlib/metadata.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/distlib/metadata.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/distlib/resources.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/distlib/resources.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/idna/__init__.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/idna/__init__.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/idna/compat.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/idna/compat.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/idna/intranges.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/idna/intranges.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/idna/codec.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/idna/codec.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/idna/package_data.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/idna/package_data.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/idna/uts46data.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/idna/uts46data.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/idna/idnadata.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/idna/idnadata.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/idna/core.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/idna/core.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/six.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/six.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/msgpack/__init__.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/msgpack/__init__.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/msgpack/fallback.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/msgpack/fallback.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/msgpack/exceptions.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/msgpack/exceptions.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/msgpack/ext.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/msgpack/ext.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/requests/__init__.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/requests/__init__.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/requests/models.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/requests/models.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/requests/compat.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/requests/compat.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/requests/status_codes.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/requests/status_codes.py
+[OK] Shebang exists in ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/requests/certs.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/requests/certs.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/requests/help.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/requests/help.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/requests/utils.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/requests/utils.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/requests/sessions.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/requests/sessions.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/requests/api.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/requests/api.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/requests/__version__.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/requests/__version__.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/requests/packages.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/requests/packages.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/requests/exceptions.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/requests/exceptions.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/requests/cookies.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/requests/cookies.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/requests/auth.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/requests/auth.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/requests/hooks.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/requests/hooks.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/requests/_internal_utils.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/requests/_internal_utils.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/requests/adapters.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/requests/adapters.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/requests/structures.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/requests/structures.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/urllib3/_version.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/urllib3/_version.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/urllib3/__init__.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/urllib3/__init__.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/urllib3/request.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/urllib3/request.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/urllib3/connectionpool.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/urllib3/connectionpool.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/urllib3/poolmanager.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/urllib3/poolmanager.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/urllib3/filepost.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/urllib3/filepost.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/urllib3/fields.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/urllib3/fields.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/urllib3/exceptions.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/urllib3/exceptions.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/urllib3/packages/__init__.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/urllib3/packages/__init__.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/urllib3/packages/six.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/urllib3/packages/six.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/urllib3/packages/backports/__init__.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/urllib3/packages/backports/__init__.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/urllib3/packages/backports/weakref_finalize.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/urllib3/packages/backports/weakref_finalize.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/urllib3/packages/backports/makefile.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/urllib3/packages/backports/makefile.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/urllib3/_collections.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/urllib3/_collections.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/urllib3/util/wait.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/urllib3/util/wait.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/urllib3/util/__init__.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/urllib3/util/__init__.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/urllib3/util/queue.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/urllib3/util/queue.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/urllib3/util/request.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/urllib3/util/request.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/urllib3/util/ssl_.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/urllib3/util/ssl_.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/urllib3/util/ssl_match_hostname.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/urllib3/util/ssl_match_hostname.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/urllib3/util/proxy.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/urllib3/util/proxy.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/urllib3/util/timeout.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/urllib3/util/timeout.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/urllib3/util/retry.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/urllib3/util/retry.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/urllib3/util/ssltransport.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/urllib3/util/ssltransport.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/urllib3/util/connection.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/urllib3/util/connection.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/urllib3/util/url.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/urllib3/util/url.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/urllib3/util/response.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/urllib3/util/response.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/urllib3/connection.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/urllib3/connection.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/urllib3/contrib/__init__.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/urllib3/contrib/__init__.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/urllib3/contrib/_appengine_environ.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/urllib3/contrib/_appengine_environ.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/urllib3/contrib/socks.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/urllib3/contrib/socks.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/urllib3/contrib/appengine.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/urllib3/contrib/appengine.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/urllib3/contrib/securetransport.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/urllib3/contrib/securetransport.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/urllib3/contrib/ntlmpool.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/urllib3/contrib/ntlmpool.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/urllib3/contrib/pyopenssl.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/urllib3/contrib/pyopenssl.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/urllib3/contrib/_securetransport/__init__.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/urllib3/contrib/_securetransport/__init__.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/urllib3/contrib/_securetransport/low_level.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/urllib3/contrib/_securetransport/low_level.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/urllib3/contrib/_securetransport/bindings.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/urllib3/contrib/_securetransport/bindings.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/urllib3/response.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/urllib3/response.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/colorama/__init__.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/colorama/__init__.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/colorama/ansi.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/colorama/ansi.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/colorama/ansitowin32.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/colorama/ansitowin32.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/colorama/tests/__init__.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/colorama/tests/__init__.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/colorama/tests/ansi_test.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/colorama/tests/ansi_test.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/colorama/tests/ansitowin32_test.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/colorama/tests/ansitowin32_test.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/colorama/tests/utils.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/colorama/tests/utils.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/colorama/tests/initialise_test.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/colorama/tests/initialise_test.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/colorama/tests/isatty_test.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/colorama/tests/isatty_test.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/colorama/tests/winterm_test.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/colorama/tests/winterm_test.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/colorama/winterm.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/colorama/winterm.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/colorama/initialise.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/colorama/initialise.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/colorama/win32.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_vendor/colorama/win32.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/metadata/importlib/__init__.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/metadata/importlib/__init__.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/metadata/importlib/_compat.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/metadata/importlib/_compat.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/metadata/importlib/_dists.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/metadata/importlib/_dists.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/metadata/importlib/_envs.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/metadata/importlib/_envs.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/metadata/__init__.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/metadata/__init__.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/metadata/base.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/metadata/base.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/metadata/_json.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/metadata/_json.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/metadata/pkg_resources.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/metadata/pkg_resources.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/__init__.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/__init__.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/cli/__init__.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/cli/__init__.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/cli/spinners.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/cli/spinners.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/cli/status_codes.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/cli/status_codes.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/cli/cmdoptions.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/cli/cmdoptions.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/cli/autocompletion.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/cli/autocompletion.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/cli/req_command.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/cli/req_command.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/cli/progress_bars.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/cli/progress_bars.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/cli/main_parser.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/cli/main_parser.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/cli/command_context.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/cli/command_context.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/cli/parser.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/cli/parser.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/cli/base_command.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/cli/base_command.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/cli/main.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/cli/main.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/cache.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/cache.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/index/__init__.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/index/__init__.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/index/sources.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/index/sources.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/index/package_finder.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/index/package_finder.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/index/collector.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/index/collector.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/build_env.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/build_env.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/configuration.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/configuration.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/req/__init__.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/req/__init__.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/req/req_uninstall.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/req/req_uninstall.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/req/req_install.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/req/req_install.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/req/req_set.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/req/req_set.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/req/constructors.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/req/constructors.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/req/req_file.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/req/req_file.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/locations/__init__.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/locations/__init__.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/locations/_distutils.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/locations/_distutils.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/locations/base.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/locations/base.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/locations/_sysconfig.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/locations/_sysconfig.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/vcs/__init__.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/vcs/__init__.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/vcs/bazaar.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/vcs/bazaar.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/vcs/git.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/vcs/git.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/vcs/mercurial.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/vcs/mercurial.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/vcs/versioncontrol.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/vcs/versioncontrol.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/vcs/subversion.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/vcs/subversion.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/distributions/__init__.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/distributions/__init__.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/distributions/installed.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/distributions/installed.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/distributions/base.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/distributions/base.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/distributions/sdist.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/distributions/sdist.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/distributions/wheel.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/distributions/wheel.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/commands/__init__.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/commands/__init__.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/commands/download.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/commands/download.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/commands/cache.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/commands/cache.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/commands/hash.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/commands/hash.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/commands/show.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/commands/show.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/commands/completion.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/commands/completion.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/commands/inspect.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/commands/inspect.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/commands/help.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/commands/help.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/commands/configuration.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/commands/configuration.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/commands/list.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/commands/list.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/commands/uninstall.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/commands/uninstall.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/commands/install.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/commands/install.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/commands/debug.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/commands/debug.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/commands/check.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/commands/check.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/commands/freeze.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/commands/freeze.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/commands/index.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/commands/index.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/commands/search.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/commands/search.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/commands/wheel.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/commands/wheel.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/exceptions.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/exceptions.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/models/__init__.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/models/__init__.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/models/selection_prefs.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/models/selection_prefs.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/models/direct_url.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/models/direct_url.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/models/candidate.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/models/candidate.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/models/search_scope.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/models/search_scope.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/models/installation_report.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/models/installation_report.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/models/format_control.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/models/format_control.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/models/target_python.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/models/target_python.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/models/index.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/models/index.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/models/link.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/models/link.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/models/wheel.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/models/wheel.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/models/scheme.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/models/scheme.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/network/__init__.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/network/__init__.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/network/download.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/network/download.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/network/cache.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/network/cache.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/network/lazy_wheel.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/network/lazy_wheel.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/network/utils.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/network/utils.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/network/auth.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/network/auth.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/network/session.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/network/session.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/network/xmlrpc.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/network/xmlrpc.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/operations/__init__.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/operations/__init__.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/operations/prepare.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/operations/prepare.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/operations/install/__init__.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/operations/install/__init__.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/operations/install/editable_legacy.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/operations/install/editable_legacy.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/operations/install/wheel.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/operations/install/wheel.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/operations/check.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/operations/check.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/operations/freeze.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/operations/freeze.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/operations/build/__init__.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/operations/build/__init__.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/operations/build/wheel_editable.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/operations/build/wheel_editable.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/operations/build/metadata_legacy.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/operations/build/metadata_legacy.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/operations/build/metadata_editable.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/operations/build/metadata_editable.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/operations/build/wheel.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/operations/build/wheel.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/operations/build/metadata.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/operations/build/metadata.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/operations/build/wheel_legacy.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/operations/build/wheel_legacy.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/operations/build/build_tracker.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/operations/build/build_tracker.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/main.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/main.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/wheel_builder.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/wheel_builder.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/resolution/__init__.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/resolution/__init__.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/resolution/base.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/resolution/base.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/resolution/resolvelib/candidates.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/resolution/resolvelib/candidates.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/resolution/resolvelib/__init__.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/resolution/resolvelib/__init__.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/resolution/resolvelib/factory.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/resolution/resolvelib/factory.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/resolution/resolvelib/found_candidates.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/resolution/resolvelib/found_candidates.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/resolution/resolvelib/base.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/resolution/resolvelib/base.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/resolution/resolvelib/resolver.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/resolution/resolvelib/resolver.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/resolution/resolvelib/requirements.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/resolution/resolvelib/requirements.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/resolution/resolvelib/provider.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/resolution/resolvelib/provider.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/resolution/resolvelib/reporter.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/resolution/resolvelib/reporter.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/resolution/legacy/__init__.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/resolution/legacy/__init__.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/resolution/legacy/resolver.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/resolution/legacy/resolver.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/self_outdated_check.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/self_outdated_check.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/utils/glibc.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/utils/glibc.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/utils/__init__.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/utils/__init__.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/utils/models.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/utils/models.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/utils/subprocess.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/utils/subprocess.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/utils/packaging.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/utils/packaging.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/utils/compat.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/utils/compat.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/utils/direct_url_helpers.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/utils/direct_url_helpers.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/utils/logging.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/utils/logging.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/utils/inject_securetransport.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/utils/inject_securetransport.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/utils/filetypes.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/utils/filetypes.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/utils/misc.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/utils/misc.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/utils/datetime.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/utils/datetime.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/utils/hashes.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/utils/hashes.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/utils/deprecation.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/utils/deprecation.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/utils/filesystem.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/utils/filesystem.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/utils/unpacking.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/utils/unpacking.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/utils/egg_link.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/utils/egg_link.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/utils/setuptools_build.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/utils/setuptools_build.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/utils/_jaraco_text.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/utils/_jaraco_text.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/utils/urls.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/utils/urls.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/utils/entrypoints.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/utils/entrypoints.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/utils/encoding.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/utils/encoding.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/utils/wheel.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/utils/wheel.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/utils/_log.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/utils/_log.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/utils/temp_dir.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/utils/temp_dir.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/utils/appdirs.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/utils/appdirs.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/utils/virtualenv.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/utils/virtualenv.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/utils/compatibility_tags.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/utils/compatibility_tags.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/_internal/pyproject.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/_internal/pyproject.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../deepseek_env/lib/python3.12/site-packages/pip/__pip-runner__.py
+[OK] Python syntax correct: ../deepseek_env/lib/python3.12/site-packages/pip/__pip-runner__.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../core/__init__.py
+[OK] Python syntax correct: ../core/__init__.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../core/storage.py
+[OK] Python syntax correct: ../core/storage.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../core/deepseek_core.py
+[OK] Python syntax correct: ../core/deepseek_core.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../core/telemetry.py
+[OK] Python syntax correct: ../core/telemetry.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../core/errors.py
+[OK] Python syntax correct: ../core/errors.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../core/config.py
+[OK] Python syntax correct: ../core/config.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../core/security.py
+[OK] Python syntax correct: ../core/security.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../devops_team.py
+[ERROR] Python syntax issue in ../devops_team.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../examples/ai_pipeline.py
+[OK] Python syntax correct: ../examples/ai_pipeline.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../examples/plugin_development.py
+[OK] Python syntax correct: ../examples/plugin_development.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../examples/basic_usage.py
+[OK] Python syntax correct: ../examples/basic_usage.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../py/training.py
+[OK] Python syntax correct: ../py/training.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../py/inference.py
+[OK] Python syntax correct: ../py/inference.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../ai_concession/ai_intelligence_expansion/ai_intelligence_expansion.py
+[OK] Python syntax correct: ../ai_concession/ai_intelligence_expansion/ai_intelligence_expansion.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../ai_concession/ai_intelligence_expansion/ai_sales_system/ai_sales_system/ai_sales_system.py
+[OK] Python syntax correct: ../ai_concession/ai_intelligence_expansion/ai_sales_system/ai_sales_system/ai_sales_system.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../ai_concession/ai_intelligence_expansion/ai_sales_system/ai_sales_system/ai_zero_trust/cognitive_enhancement/data_ingestion/data_ingestion.py
+[ERROR] Python syntax issue in ../ai_concession/ai_intelligence_expansion/ai_sales_system/ai_sales_system/ai_zero_trust/cognitive_enhancement/data_ingestion/data_ingestion.py
+[OK] Shebang exists in ../ai_concession/ai_intelligence_expansion/ai_sales_system/ai_sales_system/ai_zero_trust/cognitive_enhancement/data_ingestion/git_setup/git_setup/git_setup/project_optimizer/project_optimizer.sh
+[CHECK] Testing Bash syntax for: ../ai_concession/ai_intelligence_expansion/ai_sales_system/ai_sales_system/ai_zero_trust/cognitive_enhancement/data_ingestion/git_setup/git_setup/git_setup/project_optimizer/project_optimizer.sh
+[OK] Bash syntax correct: ../ai_concession/ai_intelligence_expansion/ai_sales_system/ai_sales_system/ai_zero_trust/cognitive_enhancement/data_ingestion/git_setup/git_setup/git_setup/project_optimizer/project_optimizer.sh
+[OK] Shebang exists in ../ai_concession/ai_intelligence_expansion/ai_sales_system/ai_sales_system/ai_zero_trust/cognitive_enhancement/data_ingestion/git_setup/git_setup/git_setup/project_optimizer/project_setup/master_project_setup/master_setup_debugging.sh
+[CHECK] Testing Bash syntax for: ../ai_concession/ai_intelligence_expansion/ai_sales_system/ai_sales_system/ai_zero_trust/cognitive_enhancement/data_ingestion/git_setup/git_setup/git_setup/project_optimizer/project_setup/master_project_setup/master_setup_debugging.sh
+[OK] Bash syntax correct: ../ai_concession/ai_intelligence_expansion/ai_sales_system/ai_sales_system/ai_zero_trust/cognitive_enhancement/data_ingestion/git_setup/git_setup/git_setup/project_optimizer/project_setup/master_project_setup/master_setup_debugging.sh
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../ai_concession/ai_intelligence_expansion/ai_sales_system/ai_sales_system/ai_zero_trust/cognitive_enhancement/data_ingestion/git_setup/git_setup/git_setup/project_optimizer/project_setup/master_project_setup/tests/test_sample.py
+[OK] Python syntax correct: ../ai_concession/ai_intelligence_expansion/ai_sales_system/ai_sales_system/ai_zero_trust/cognitive_enhancement/data_ingestion/git_setup/git_setup/git_setup/project_optimizer/project_setup/master_project_setup/tests/test_sample.py
+[OK] Shebang exists in ../ai_concession/ai_intelligence_expansion/ai_sales_system/ai_sales_system/ai_zero_trust/cognitive_enhancement/data_ingestion/git_setup/git_setup/git_setup/project_optimizer/project_setup/master_project_setup/ai_system_automation/ai_environment_setup/ai_data_ingestion/data_ingestion.sh
+[CHECK] Testing Bash syntax for: ../ai_concession/ai_intelligence_expansion/ai_sales_system/ai_sales_system/ai_zero_trust/cognitive_enhancement/data_ingestion/git_setup/git_setup/git_setup/project_optimizer/project_setup/master_project_setup/ai_system_automation/ai_environment_setup/ai_data_ingestion/data_ingestion.sh
+[ERROR] Bash syntax issue in ../ai_concession/ai_intelligence_expansion/ai_sales_system/ai_sales_system/ai_zero_trust/cognitive_enhancement/data_ingestion/git_setup/git_setup/git_setup/project_optimizer/project_setup/master_project_setup/ai_system_automation/ai_environment_setup/ai_data_ingestion/data_ingestion.sh
+[OK] Shebang exists in ../ai_concession/ai_intelligence_expansion/ai_sales_system/ai_sales_system/ai_zero_trust/cognitive_enhancement/data_ingestion/git_setup/git_setup/git_setup/project_optimizer/project_setup/master_project_setup/ai_system_automation/ai_environment_setup/ai_data_ingestion/data_ingestion.py
+[OK] Python syntax correct: ../ai_concession/ai_intelligence_expansion/ai_sales_system/ai_sales_system/ai_zero_trust/cognitive_enhancement/data_ingestion/git_setup/git_setup/git_setup/project_optimizer/project_setup/master_project_setup/ai_system_automation/ai_environment_setup/ai_data_ingestion/data_ingestion.py
+[OK] Shebang exists in ../ai_concession/ai_intelligence_expansion/ai_sales_system/ai_sales_system/ai_zero_trust/cognitive_enhancement/data_ingestion/git_setup/git_setup/git_setup/project_optimizer/project_setup/master_project_setup/ai_system_automation/ai_environment_setup/ai_data_ingestion/ai_training/ai_model_deployment/model_deployment.sh
+[CHECK] Testing Bash syntax for: ../ai_concession/ai_intelligence_expansion/ai_sales_system/ai_sales_system/ai_zero_trust/cognitive_enhancement/data_ingestion/git_setup/git_setup/git_setup/project_optimizer/project_setup/master_project_setup/ai_system_automation/ai_environment_setup/ai_data_ingestion/ai_training/ai_model_deployment/model_deployment.sh
+[ERROR] Bash syntax issue in ../ai_concession/ai_intelligence_expansion/ai_sales_system/ai_sales_system/ai_zero_trust/cognitive_enhancement/data_ingestion/git_setup/git_setup/git_setup/project_optimizer/project_setup/master_project_setup/ai_system_automation/ai_environment_setup/ai_data_ingestion/ai_training/ai_model_deployment/model_deployment.sh
+[OK] Shebang exists in ../ai_concession/ai_intelligence_expansion/ai_sales_system/ai_sales_system/ai_zero_trust/cognitive_enhancement/data_ingestion/git_setup/git_setup/git_setup/project_optimizer/project_setup/master_project_setup/ai_system_automation/ai_environment_setup/ai_data_ingestion/ai_training/ai_model_deployment/ai_system_master_script/ai_system_orchestration/ai_system_orchestration_v2/orchestration_v2.sh
+[CHECK] Testing Bash syntax for: ../ai_concession/ai_intelligence_expansion/ai_sales_system/ai_sales_system/ai_zero_trust/cognitive_enhancement/data_ingestion/git_setup/git_setup/git_setup/project_optimizer/project_setup/master_project_setup/ai_system_automation/ai_environment_setup/ai_data_ingestion/ai_training/ai_model_deployment/ai_system_master_script/ai_system_orchestration/ai_system_orchestration_v2/orchestration_v2.sh
+[ERROR] Bash syntax issue in ../ai_concession/ai_intelligence_expansion/ai_sales_system/ai_sales_system/ai_zero_trust/cognitive_enhancement/data_ingestion/git_setup/git_setup/git_setup/project_optimizer/project_setup/master_project_setup/ai_system_automation/ai_environment_setup/ai_data_ingestion/ai_training/ai_model_deployment/ai_system_master_script/ai_system_orchestration/ai_system_orchestration_v2/orchestration_v2.sh
+[OK] Shebang exists in ../ai_concession/ai_intelligence_expansion/ai_sales_system/ai_sales_system/ai_zero_trust/cognitive_enhancement/data_ingestion/git_setup/git_setup/git_setup/project_optimizer/project_setup/master_project_setup/ai_system_automation/ai_environment_setup/ai_data_ingestion/ai_training/ai_model_deployment/ai_system_master_script/ai_system_orchestration/orchestration.sh
+[CHECK] Testing Bash syntax for: ../ai_concession/ai_intelligence_expansion/ai_sales_system/ai_sales_system/ai_zero_trust/cognitive_enhancement/data_ingestion/git_setup/git_setup/git_setup/project_optimizer/project_setup/master_project_setup/ai_system_automation/ai_environment_setup/ai_data_ingestion/ai_training/ai_model_deployment/ai_system_master_script/ai_system_orchestration/orchestration.sh
+[OK] Bash syntax correct: ../ai_concession/ai_intelligence_expansion/ai_sales_system/ai_sales_system/ai_zero_trust/cognitive_enhancement/data_ingestion/git_setup/git_setup/git_setup/project_optimizer/project_setup/master_project_setup/ai_system_automation/ai_environment_setup/ai_data_ingestion/ai_training/ai_model_deployment/ai_system_master_script/ai_system_orchestration/orchestration.sh
+[OK] Shebang exists in ../ai_concession/ai_intelligence_expansion/ai_sales_system/ai_sales_system/ai_zero_trust/cognitive_enhancement/data_ingestion/git_setup/git_setup/git_setup/project_optimizer/project_setup/master_project_setup/ai_system_automation/ai_environment_setup/ai_data_ingestion/ai_training/ai_model_deployment/ai_system_master_script/ai_master_script.sh
+[CHECK] Testing Bash syntax for: ../ai_concession/ai_intelligence_expansion/ai_sales_system/ai_sales_system/ai_zero_trust/cognitive_enhancement/data_ingestion/git_setup/git_setup/git_setup/project_optimizer/project_setup/master_project_setup/ai_system_automation/ai_environment_setup/ai_data_ingestion/ai_training/ai_model_deployment/ai_system_master_script/ai_master_script.sh
+[ERROR] Bash syntax issue in ../ai_concession/ai_intelligence_expansion/ai_sales_system/ai_sales_system/ai_zero_trust/cognitive_enhancement/data_ingestion/git_setup/git_setup/git_setup/project_optimizer/project_setup/master_project_setup/ai_system_automation/ai_environment_setup/ai_data_ingestion/ai_training/ai_model_deployment/ai_system_master_script/ai_master_script.sh
+[OK] Shebang exists in ../ai_concession/ai_intelligence_expansion/ai_sales_system/ai_sales_system/ai_zero_trust/cognitive_enhancement/data_ingestion/git_setup/git_setup/git_setup/project_optimizer/project_setup/master_project_setup/ai_system_automation/ai_environment_setup/ai_data_ingestion/ai_training/ai_training.sh
+[CHECK] Testing Bash syntax for: ../ai_concession/ai_intelligence_expansion/ai_sales_system/ai_sales_system/ai_zero_trust/cognitive_enhancement/data_ingestion/git_setup/git_setup/git_setup/project_optimizer/project_setup/master_project_setup/ai_system_automation/ai_environment_setup/ai_data_ingestion/ai_training/ai_training.sh
+[ERROR] Bash syntax issue in ../ai_concession/ai_intelligence_expansion/ai_sales_system/ai_sales_system/ai_zero_trust/cognitive_enhancement/data_ingestion/git_setup/git_setup/git_setup/project_optimizer/project_setup/master_project_setup/ai_system_automation/ai_environment_setup/ai_data_ingestion/ai_training/ai_training.sh
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../ai_concession/ai_intelligence_expansion/ai_sales_system/ai_sales_system/ai_zero_trust/cognitive_enhancement/data_ingestion/git_setup/git_setup/git_setup/project_optimizer/project_setup/master_project_setup/ai_system_automation/ai_environment_setup/ai_data_ingestion/ai_training/ai_training.py
+[ERROR] Python syntax issue in ../ai_concession/ai_intelligence_expansion/ai_sales_system/ai_sales_system/ai_zero_trust/cognitive_enhancement/data_ingestion/git_setup/git_setup/git_setup/project_optimizer/project_setup/master_project_setup/ai_system_automation/ai_environment_setup/ai_data_ingestion/ai_training/ai_training.py
+[OK] Shebang exists in ../ai_concession/ai_intelligence_expansion/ai_sales_system/ai_sales_system/ai_zero_trust/cognitive_enhancement/data_ingestion/git_setup/git_setup/git_setup/project_optimizer/project_setup/master_project_setup/ai_system_automation/ai_environment_setup/setup_env.sh
+[CHECK] Testing Bash syntax for: ../ai_concession/ai_intelligence_expansion/ai_sales_system/ai_sales_system/ai_zero_trust/cognitive_enhancement/data_ingestion/git_setup/git_setup/git_setup/project_optimizer/project_setup/master_project_setup/ai_system_automation/ai_environment_setup/setup_env.sh
+[OK] Bash syntax correct: ../ai_concession/ai_intelligence_expansion/ai_sales_system/ai_sales_system/ai_zero_trust/cognitive_enhancement/data_ingestion/git_setup/git_setup/git_setup/project_optimizer/project_setup/master_project_setup/ai_system_automation/ai_environment_setup/setup_env.sh
+[OK] Shebang exists in ../ai_concession/ai_intelligence_expansion/ai_sales_system/ai_sales_system/ai_zero_trust/cognitive_enhancement/data_ingestion/git_setup/git_setup/git_setup/git_master_setup.sh
+[CHECK] Testing Bash syntax for: ../ai_concession/ai_intelligence_expansion/ai_sales_system/ai_sales_system/ai_zero_trust/cognitive_enhancement/data_ingestion/git_setup/git_setup/git_setup/git_master_setup.sh
+[OK] Bash syntax correct: ../ai_concession/ai_intelligence_expansion/ai_sales_system/ai_sales_system/ai_zero_trust/cognitive_enhancement/data_ingestion/git_setup/git_setup/git_setup/git_master_setup.sh
+[OK] Shebang exists in ../ai_concession/ai_intelligence_expansion/ai_sales_system/ai_sales_system/ai_zero_trust/cognitive_enhancement/data_ingestion/git_setup/git_setup/git_master_setup.sh
+[CHECK] Testing Bash syntax for: ../ai_concession/ai_intelligence_expansion/ai_sales_system/ai_sales_system/ai_zero_trust/cognitive_enhancement/data_ingestion/git_setup/git_setup/git_master_setup.sh
+[OK] Bash syntax correct: ../ai_concession/ai_intelligence_expansion/ai_sales_system/ai_sales_system/ai_zero_trust/cognitive_enhancement/data_ingestion/git_setup/git_setup/git_master_setup.sh
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../ai_concession/ai_intelligence_expansion/ai_sales_system/ai_sales_system/ai_zero_trust/cognitive_enhancement/cognitive_enhancement.py
+[ERROR] Python syntax issue in ../ai_concession/ai_intelligence_expansion/ai_sales_system/ai_sales_system/ai_zero_trust/cognitive_enhancement/cognitive_enhancement.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../ai_concession/ai_intelligence_expansion/ai_sales_system/ai_sales_system/ai_zero_trust/ai_zero_trust.py
+[ERROR] Python syntax issue in ../ai_concession/ai_intelligence_expansion/ai_sales_system/ai_sales_system/ai_zero_trust/ai_zero_trust.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../ai_concession/ai_concession.py
+[ERROR] Python syntax issue in ../ai_concession/ai_concession.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../ai_calibrator.py
+[ERROR] Python syntax issue in ../ai_calibrator.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../benchmarks/__init__.py
+[OK] Python syntax correct: ../benchmarks/__init__.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../benchmarks/ai_benchmarks.py
+[OK] Python syntax correct: ../benchmarks/ai_benchmarks.py
+[INFO] Adding shebang (#!/usr/bin/env python3) to ../benchmarks/core_benchmarks.py
+[OK] Python syntax correct: ../benchmarks/core_benchmarks.py
+===================================================
+Run ended at: Thu Mar 20 19:20:28 UTC 2025
+Logs: troubleshoot_master.log | Errors: error_master.log

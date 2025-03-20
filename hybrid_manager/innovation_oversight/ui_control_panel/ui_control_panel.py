@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import asyncio
 from ui.control_panel import ControlPanel
 from models.risk_assessment import RiskAssessmentModel

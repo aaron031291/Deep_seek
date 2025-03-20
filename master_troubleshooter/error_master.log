@@ -1,0 +1,51 @@
+../core_architecture/core_setup.sh: line 22: syntax error near unexpected token `('
+../core_architecture/core_setup.sh: line 22: `class SecurityError(Exception):'
+../execution/run_script.sh: line 9: syntax error near unexpected token `('
+../execution/run_script.sh: line 9: `    def __init__(self, root_dir: str = "deepseek"):'
+  File "../adaptive_memory/ai_system_scalability/ai_calibrator/ai_calibrator.py", line 2053
+    "
+    ^
+SyntaxError: unterminated string literal (detected at line 2053)
+Sorry: IndentationError: unexpected indent (installer.py, line 19)Sorry: IndentationError: unindent does not match any outer indentation level (remote_access.py, line 458)  File "../hybrid_manager/innovation_oversight/ui_control_panel/marketing_digital_content/remote_access/risk_assessment/roi_method/roi_method.py", line 2
+    Roi methods 
+        ^^^^^^^
+SyntaxError: invalid syntax
+Sorry: IndentationError: unindent does not match any outer indentation level (marketing_digital_content.py, line 7)  File "../devops_team.py", line 767
+    await self.log_aggregator.store(metrics). 
+                                              ^
+SyntaxError: invalid syntax
+  File "../ai_concession/ai_intelligence_expansion/ai_sales_system/ai_sales_system/ai_zero_trust/cognitive_enhancement/data_ingestion/data_ingestion.py", line 2051
+    "
+    ^
+SyntaxError: unterminated string literal (detected at line 2051)
+../ai_concession/ai_intelligence_expansion/ai_sales_system/ai_sales_system/ai_zero_trust/cognitive_enhancement/data_ingestion/git_setup/git_setup/git_setup/project_optimizer/project_optimizer.sh: line 51: warning: here-document at line 26 delimited by end-of-file (wanted `EOL')
+../ai_concession/ai_intelligence_expansion/ai_sales_system/ai_sales_system/ai_zero_trust/cognitive_enhancement/data_ingestion/git_setup/git_setup/git_setup/project_optimizer/project_setup/master_project_setup/ai_system_automation/ai_environment_setup/ai_data_ingestion/data_ingestion.sh: line 12: syntax error near unexpected token `newline'
+../ai_concession/ai_intelligence_expansion/ai_sales_system/ai_sales_system/ai_zero_trust/cognitive_enhancement/data_ingestion/git_setup/git_setup/git_setup/project_optimizer/project_setup/master_project_setup/ai_system_automation/ai_environment_setup/ai_data_ingestion/data_ingestion.sh: line 12: `logging.basicConfig('
+../ai_concession/ai_intelligence_expansion/ai_sales_system/ai_sales_system/ai_zero_trust/cognitive_enhancement/data_ingestion/git_setup/git_setup/git_setup/project_optimizer/project_setup/master_project_setup/ai_system_automation/ai_environment_setup/ai_data_ingestion/ai_training/ai_model_deployment/model_deployment.sh: line 13: syntax error near unexpected token `newline'
+../ai_concession/ai_intelligence_expansion/ai_sales_system/ai_sales_system/ai_zero_trust/cognitive_enhancement/data_ingestion/git_setup/git_setup/git_setup/project_optimizer/project_setup/master_project_setup/ai_system_automation/ai_environment_setup/ai_data_ingestion/ai_training/ai_model_deployment/model_deployment.sh: line 13: `logging.basicConfig('
+../ai_concession/ai_intelligence_expansion/ai_sales_system/ai_sales_system/ai_zero_trust/cognitive_enhancement/data_ingestion/git_setup/git_setup/git_setup/project_optimizer/project_setup/master_project_setup/ai_system_automation/ai_environment_setup/ai_data_ingestion/ai_training/ai_model_deployment/ai_system_master_script/ai_system_orchestration/ai_system_orchestration_v2/orchestration_v2.sh: line 13: syntax error near unexpected token `newline'
+../ai_concession/ai_intelligence_expansion/ai_sales_system/ai_sales_system/ai_zero_trust/cognitive_enhancement/data_ingestion/git_setup/git_setup/git_setup/project_optimizer/project_setup/master_project_setup/ai_system_automation/ai_environment_setup/ai_data_ingestion/ai_training/ai_model_deployment/ai_system_master_script/ai_system_orchestration/ai_system_orchestration_v2/orchestration_v2.sh: line 13: `logging.basicConfig('
+../ai_concession/ai_intelligence_expansion/ai_sales_system/ai_sales_system/ai_zero_trust/cognitive_enhancement/data_ingestion/git_setup/git_setup/git_setup/project_optimizer/project_setup/master_project_setup/ai_system_automation/ai_environment_setup/ai_data_ingestion/ai_training/ai_model_deployment/ai_system_master_script/ai_master_script.sh: line 13: syntax error near unexpected token `newline'
+../ai_concession/ai_intelligence_expansion/ai_sales_system/ai_sales_system/ai_zero_trust/cognitive_enhancement/data_ingestion/git_setup/git_setup/git_setup/project_optimizer/project_setup/master_project_setup/ai_system_automation/ai_environment_setup/ai_data_ingestion/ai_training/ai_model_deployment/ai_system_master_script/ai_master_script.sh: line 13: `logging.basicConfig('
+../ai_concession/ai_intelligence_expansion/ai_sales_system/ai_sales_system/ai_zero_trust/cognitive_enhancement/data_ingestion/git_setup/git_setup/git_setup/project_optimizer/project_setup/master_project_setup/ai_system_automation/ai_environment_setup/ai_data_ingestion/ai_training/ai_training.sh: line 16: syntax error near unexpected token `newline'
+../ai_concession/ai_intelligence_expansion/ai_sales_system/ai_sales_system/ai_zero_trust/cognitive_enhancement/data_ingestion/git_setup/git_setup/git_setup/project_optimizer/project_setup/master_project_setup/ai_system_automation/ai_environment_setup/ai_data_ingestion/ai_training/ai_training.sh: line 16: `logging.basicConfig('
+  File "../ai_concession/ai_intelligence_expansion/ai_sales_system/ai_sales_system/ai_zero_trust/cognitive_enhancement/data_ingestion/git_setup/git_setup/git_setup/project_optimizer/project_setup/master_project_setup/ai_system_automation/ai_environment_setup/ai_data_ingestion/ai_training/ai_training.py", line 2
+    ximport pandas as pd
+            ^^^^^^
+SyntaxError: invalid syntax
+  File "../ai_concession/ai_intelligence_expansion/ai_sales_system/ai_sales_system/ai_zero_trust/cognitive_enhancement/cognitive_enhancement.py", line 279
+    })) class SyncEventHandler(FileSystemEventHandler):
+        ^^^^^
+SyntaxError: invalid syntax
+  File "../ai_concession/ai_intelligence_expansion/ai_sales_system/ai_sales_system/ai_zero_trust/ai_zero_trust.py", line 2
+    Enterprise Security & Zero-Trust AI Architecture
+               ^^^^^^^^
+SyntaxError: invalid syntax
+  File "../ai_concession/ai_concession.py", line 50
+    return await self._generate_alternative_decision(context) from typing import Dict, List, Optional
+                                                              ^^^^
+SyntaxError: invalid syntax
+  File "../ai_calibrator.py", line 2053
+    "
+    ^
+SyntaxError: unterminated string literal (detected at line 2053)

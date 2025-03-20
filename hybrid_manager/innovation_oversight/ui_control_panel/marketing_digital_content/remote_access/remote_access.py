@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """
 Remote access functionality for the AI assistant.
 

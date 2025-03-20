@@ -1,3 +1,4 @@
+#!/bin/bash
 # Make the script executable
 chmod +x "$SCRIPT"
 # Run the script
